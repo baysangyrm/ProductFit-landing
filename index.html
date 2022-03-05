@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/preload.css">
+    <link rel="shortcut icon" href="img/links/favicon1.gif" type="image/gif">
+    <title>Product Fit: Главная</title>
+</head>
+    <script>
+        // ПРЕЛОАДЕР JS
+            window.addEventListener('load',function(){
+        document.querySelector('body').classList.add("loaded")  
+        });
+        // ПРЕЛОАДЕР JS 
+    </script>
+
+<body>
+
+    <!-- PRELOADER!!! -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+      </div>
+    <!-- PRELOADER!!! -->
+
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper" >
+                <div class="header-logo"             
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                >
+                    <img src="img/header/header-logo/Logo.svg" alt="Icon: Logo" class="header-logo__image" width="210px">
+                    <!-- Logotype -->
+                </div>
+                <!-- /.header-logo -->
+                <div class="header-society"
+                data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                >
+                    <a href="#" class="header-tg__link"><img src="img/header/header-society/tg.svg" alt="" class="header-tg"></a>
+                    <!-- Telegram -->
+                    <a href="#" class="header-mail__link"><img src="img/header/header-society/mail.svg" alt="" class="header-mail"></a>
+                    <!-- E-mail -->
+                    <div class="header-number">
+                    <a href="tel:+78003017927" class="header-num"><img src="img/header/header-society/phone.svg" alt="Icon: Phone" class="header-num__image" > +7 800 301-79-27</a>
+                    <!-- Number -->
+                </div>
+                <!-- /.header-society -->
+                <button class="header-button">НАЧАТЬ ПРОЕКТ</button>
+            </div>
+            <!-- /.header-wrapper -->
+        </div>
+        <!-- /.container -->
+    </header>
+    <section class="header-dev" data-aos="fade-up">
+        <div class="container">
+            <div class="header-main">
+            <div class="header-main__dev">
+                <h2 class="header-main__dev-title">
+                    Разработка <br>
+                    IT‑продуктов
+                </h2>
+                <p class="header-main__dev-description">
+                    Разработаем проект с нуля, <br>
+                    доработаем текущий проект или усилим вашу <br>
+                    ИТ-команду лучшими разработчиками на рынке <br>
+                </p>
+                <button class="header-button">НАЧАТЬ ПРОЕКТ</button>
+            </div>
+            <!-- /.header-main__dev -->
+            <img src="img/header/header-main/right-image.svg" alt="Icon: Image" width="800px">
+        </div>
+        <!-- /.header-main -->
+        </div>
+        <!-- /.container -->
+    </section>
+</body>
+</html>
